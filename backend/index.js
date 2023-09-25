@@ -1,5 +1,5 @@
 import express from "express";
-import mysql from "mysql";
+
 
 import  {PORT,mongoDBURL} from "./config.js";
 import mongoose from 'mongoose';
@@ -34,14 +34,3 @@ mongoose.connect(mongoDBURL).then(() =>{
     console.log(error);
 })
 
-const conn = mysql.createConnection(
-    {
-        host:"localhost",
-        user:"root",
-        password:"",
-        database:"",
-
-
-
-    }
-)
