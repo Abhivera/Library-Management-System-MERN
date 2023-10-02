@@ -1,3 +1,3 @@
 export const PORT = 3000;
 
-export const mongoDBURL='mongodb+srv://root:root@abhijit.y9dx66h.mongodb.net/?retryWrites=true&w=majority'
+export const mongoDBURL='mongodb+srv://rootuser:rootpass@cluster0.a6ac3m4.mongodb.net/?retryWrites=true&w=majority'
